@@ -1,0 +1,5 @@
+rules:
+  self-repository:
+    ignore:
+      # `./` is the documented syntax for local reusable workflows; `$/` is not.
+      - publish-testpypi.yml:18
